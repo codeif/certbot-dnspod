@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "certbot-dnspod"
-version = "0.1.0"
+version = "0.1.1"
 description = "A certbot plugin for DNSPod"
 authors = ["codeif <me@codeif.com>"]
 license = "BSD-3-Clause"

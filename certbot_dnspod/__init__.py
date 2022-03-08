@@ -126,6 +126,7 @@ class _DNSPodClient(object):
         for domain_obj in j["domains"]:
             if domain_name.endswith(domain_obj["name"]):
                 return DomainInfo(domain_obj["id"], domain_obj["name"])
+        assert False, f"_find_domain_info() Can't find domain: {domain_name}"
 
     def _find_record_ids(self, domain_id, sub_domain):
         data = {
