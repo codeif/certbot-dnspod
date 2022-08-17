@@ -15,7 +15,7 @@ sudo certbot certonly \
 --authenticator certbot-dnspod \
 --certbot-dnspod-credentials ~/.secrets/certbot/dnspod.ini \
 -d example.com \
--d *.myfunpinpin.com
+-d *.example.com
 ```
 
 其中~/.secrets/certbot/dnspod.ini为配置文件路径，内容
